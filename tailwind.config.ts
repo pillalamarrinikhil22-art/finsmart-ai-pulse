@@ -58,6 +58,15 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        'gradient-financial': 'var(--gradient-primary)',
+        'gradient-success': 'var(--gradient-success)',
+        'gradient-dashboard': 'var(--gradient-dashboard)',
+      },
+      boxShadow: {
+        'financial': 'var(--shadow-card)',
+        'financial-lg': 'var(--shadow-lg)',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
